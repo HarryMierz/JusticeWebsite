@@ -1,0 +1,100 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0052a3;
+}
+
+/* Home Page */
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.button {
+    font-size: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    flex: 1 0 33.33%;
+  }
+  
+  .grid-image {
+    flex-basis: 30%;
+  }
+  
+  .grid-text {
+    flex-basis: 70%;
+  }
